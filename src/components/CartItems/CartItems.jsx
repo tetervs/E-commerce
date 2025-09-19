@@ -53,6 +53,13 @@ export const CartItems = () => {
                 </div>
                 <button>Proceed To Checkout</button>
             </div>
+            <div className="cartitems-promocode">
+                <p>If you have a promocode, Enter it here</p>
+                <div className="cartitem-promobox">
+                    <input type="text" placeholder='promocode'/>
+                    <button>Submit</button>
+                </div>
+            </div>
         </div>
     </div>
   )
