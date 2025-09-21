@@ -122,4 +122,11 @@
         height: 35px;
         font-size: 14px;
     }
+    .nav-login-cart img{
+        width: 30px;
+    }
+    .nav-cart-count{
+        width: 18px;
+        height: 18px;
+    }
 }
