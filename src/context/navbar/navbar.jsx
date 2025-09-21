@@ -26,7 +26,7 @@ export const Navbar = () => {
             <img src={logo} alt=""/>
             <p>SHOPPER</p>
         </div>
-        <img onClick={dropdown_toggle} src={nav_dropdown} alt="" />
+        <img className='navdropdown' onClick={dropdown_toggle} src={nav_dropdown} alt="" />
         <ul ref={menuRef} className="nav-menue">
             <li onClick={() => setMenue("shop")}>
                 <Link style={{textDecoration: 'none'}} to='/'>Shop</Link>
