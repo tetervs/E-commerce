@@ -11,23 +11,23 @@ export const Footer = () => {
         <div className="footer-logo">
             <img src={footer_logo} alt="" />
             <p>SHOPPER</p>
-            <ul className='footer-link'>
-                <li>Company</li>
-                <li>Products</li>
-                <li>Offices</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-            <div className="footer-social-icon">
-                <div className="footer-container-container">
-                    <img src={insta_icon} alt="" />
-                </div>
-                <div className="footer-container-container">
-                    <img src={pin_icon} alt="" />
-                </div>
-                <div className="footer-container-container">
-                    <img src={wa_icon} alt="" />
-                </div>
+        </div>
+        <ul className='footer-link'>
+            <li>Company</li>
+            <li>Products</li>
+            <li>Offices</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+        <div className="footer-social-icon">
+            <div className="footer-container-container">
+                <img src={insta_icon} alt="" />
+            </div>
+            <div className="footer-container-container">
+                <img src={pin_icon} alt="" />
+            </div>
+            <div className="footer-container-container">
+                <img src={wa_icon} alt="" />
             </div>
         </div>
         <div className="footer-copyright">
