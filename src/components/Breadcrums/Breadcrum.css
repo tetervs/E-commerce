@@ -15,3 +15,10 @@
         font-size: 14px;
     }
 }
+
+@media(max-width:1024px){
+    .breadcrum{
+        width: 30px 30px;
+        font-size: 13px;
+    }
+}
